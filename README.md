@@ -3,7 +3,7 @@
 ## 1. Express.js Application
 
 - Simple Node.js app using Express.js
-- Responds with `hello devops!` on GET /
+- Responds with `Hello devOps!` on GET /
 - Listens on port 3000
 
 ## 2. Dockerization
@@ -36,6 +36,6 @@ docker run -d --name nginx-proxy -p 80:80 -v "${PWD}\nginx.conf:/etc/nginx/nginx
 - Use curl or browser:
 
 ```sh
-curl http://localhost/
+curl http://localhost:80
 # Output: hello devops!
 ```
